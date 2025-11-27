@@ -7,10 +7,11 @@ function CardSection() {
         <div className="w-full">
             <MagicBento
                 textAutoHide={true}
-                enableStars={false}
+                enableStars={true}
                 enableSpotlight={true}
                 enableBorderGlow={true}
-                enableTilt={true}
+                disableAnimations={false}
+                enableTilt={false}
                 enableMagnetism={true}
                 clickEffect={true}
                 spotlightRadius={1000}

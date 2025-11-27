@@ -9,7 +9,7 @@ function CurvedLoopSection() {
         <div>
             <CurvedLoop
                 marqueeText={CurvedLoopSectionConstants.marqueeText}
-                speed={0.5}
+                speed={0.3}
                 curveAmount={0}
                 direction="right"
                 interactive={true}

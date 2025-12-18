@@ -695,7 +695,7 @@ const MagicBento = ({
                   enableMagnetism={enableMagnetism}
                 >
                   <div
-                    className="card__image-wrapper absolute inset-0 flex items-center justify-center pointer-events-none opacity-50 transition-opacity duration-300"
+                    className="card__image-wrapper absolute inset-0 flex items-center justify-center pointer-events-none opacity-10 transition-opacity duration-300"
                     style={{ zIndex: 0 }}
                   >
                     <img
@@ -726,7 +726,7 @@ const MagicBento = ({
                       showBorder={false}
                       className="custom-class"
                     >
-                      <span className="card__label text-6xl font-bold">
+                      <span className="card__label text-xs sm:text-sm md:text-base lg:text-xl xl:text-4xl 2xl:text-6xl font-bold">
                         {card.label}
                       </span>
                     </GradientText>
@@ -737,14 +737,14 @@ const MagicBento = ({
                     style={{ zIndex: 10 }}
                   >
                     <h3
-                      className={`card__title font-bold text-xl m-0 mb-1 opacity-80 ${
+                      className={`card__title font-bold text-xs sm:text-sm md:text-base lg:text-lg xl:text-lg 2xl:text-xl m-0 mb-1 opacity-80 ${
                         textAutoHide ? "text-clamp-1" : ""
                       }`}
                     >
                       {card.title}
                     </h3>
                     <p
-                      className={`card__description text-base leading-5 opacity-40 ${
+                      className={`card__description text-xs sm:text-sm md:text-sm lg:text-sm xl:text-sm 2xl:text-lg leading-5 opacity-40 ${
                         textAutoHide ? "text-clamp-2" : ""
                       }`}
                     >
